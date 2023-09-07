@@ -17,34 +17,68 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create "Super Admin" Role
+- Create "System Admin" Department
+- Ticket Submitting settings
+- Add Agents
+- Configure Prefix tabs for tickets
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <p>
+To create the Super Admin role go to the "Admin Panel" in the top right, you will know if you are in the Admin Panel if it says "Agent Panel" in the top right corner, as shown in the picture below. Then go to "Agents" -> "Roles" -> Add new role. In the "Permissions" tab select all the options as this is the Super Admin role wich needs all the accesses available. Then press "Add role".
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/hGhqipO.png" height="80%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VwoYk4R.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+<p>
+Now to add Departments, go to the Departments tab like the picture below and click "Add New Department" and add "Level 1 Support" & "Level 2 Support" or what other departments you would want/need.
+</p>
+<p>
+<img src="https://i.imgur.com/nImbIcq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/aTJMz6k.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now we need to make it so people dont have to login to the ticketing system to be able to submit a ticket. Go to Admin Panel -> Settings -> Users and make sure Registration Required is not selected, unless you want it to be required.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/FUwZBCD.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now we need to create some agents that can work cases for us, to do this go to Admin Panel -> Agents -> Add New and just fill in the information needed for the agents. Then go to the Access tab and select the Department the Agent should belong to and his permissions.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/genQpOW.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/yishdcb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Now we have creater two agents "Jim" & "John" and assigned them to their departments</p>
+<img src="https://i.imgur.com/uKsdAmQ.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p>
+In this Helpdesk we will use SLA in our ticket system. To set this up go to Admin Panel -> Manage -> SLA "Add New SLA Plan. Lets add 3 different SLA with the settings set up by the organization or manager.
+</p>
+<p>
+<img src="https://i.imgur.com/OdrK7QF.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jeNrBet.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/jNyH10w.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Final thing to do now is add Prefix to the tickets to help aid the end users to filter easier what their problems are. To do this go to Admin Panel -> Manage -> Help Topics
+  Lets add 3 Help Topics: Business Critical, Equipment Request, Password Reset.
+</p>
+<p>
+<img src="https://i.imgur.com/72vE9xR.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/oOfaxiC.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
