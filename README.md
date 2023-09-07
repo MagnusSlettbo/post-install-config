@@ -21,6 +21,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Create "System Admin" Department
 - Ticket Submitting settings
 - Add Agents
+- Create and setup SLA
 - Configure Prefix tabs for tickets
 
 <h2>Configuration Steps</h2>
