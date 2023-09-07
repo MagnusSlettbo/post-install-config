@@ -35,6 +35,7 @@ To create the Super Admin role go to the "Admin Panel" in the top right, you wil
 <img src="https://i.imgur.com/VwoYk4R.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 
+<h2>Adding Departments</h2>
 <br />
 <p>
 Now to add Departments, go to the Departments tab like the picture below and click "Add New Department" and add "Level 1 Support" & "Level 2 Support" or what other departments you would want/need.
@@ -45,6 +46,7 @@ Now to add Departments, go to the Departments tab like the picture below and cli
 </p>
 <br />
 
+<h2>Ticket Submitting Setting</h2>
 <p>
 Now we need to make it so people dont have to login to the ticketing system to be able to submit a ticket. Go to Admin Panel -> Settings -> Users and make sure Registration Required is not selected, unless you want it to be required.
 </p>
@@ -53,6 +55,7 @@ Now we need to make it so people dont have to login to the ticketing system to b
 </p>
 <br />
 
+<h2>Adding Agents</h2>
 <p>
 Now we need to create some agents that can work cases for us, to do this go to Admin Panel -> Agents -> Add New and just fill in the information needed for the agents. Then go to the Access tab and select the Department the Agent should belong to and his permissions.
 </p>
@@ -64,6 +67,7 @@ Now we need to create some agents that can work cases for us, to do this go to A
 <img src="https://i.imgur.com/uKsdAmQ.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 
+<h2>SLA Setup</h2>
 <p>
 In this Helpdesk we will use SLA in our ticket system. To set this up go to Admin Panel -> Manage -> SLA "Add New SLA Plan. Lets add 3 different SLA with the settings set up by the organization or manager.
 </p>
@@ -74,6 +78,7 @@ In this Helpdesk we will use SLA in our ticket system. To set this up go to Admi
 </p>
 <br />
 
+<h2>Help Topics</h2>
 <p>
 Final thing to do now is add Prefix to the tickets to help aid the end users to filter easier what their problems are. To do this go to Admin Panel -> Manage -> Help Topics
   Lets add 3 Help Topics: Business Critical, Equipment Request, Password Reset.
